@@ -76,7 +76,7 @@ The chatbot can be deployed on a cloud platform such as Render for public access
 - Expand the dataset to include a wider range of mental health topics and user scenarios.
 
 ## Contributors
-- Harini K N (@harini-nagarajan)
-- Dhanalakshmi G (
+- Harini K N (@harini-nagarajan - https://github.com/harini-nagarajan)
+- Dhanalakshmi G (@Dhanalakshmi2003 - https://github.com/Dhanalakshmi2003)
 ---
 
