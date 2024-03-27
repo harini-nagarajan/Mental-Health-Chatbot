@@ -41,7 +41,6 @@ The Mental Health Chatbot is an intelligent conversational agent designed to pro
 
 ## Deployment
 The chatbot can be deployed on a cloud platform such as Render for public access. Follow the deployment instructions in the `deployment` part given below for detailed steps.
-The `deployment.md` file typically contains instructions and guidelines for deploying the project/application to a specific platform or environment. In the context of your Mental Health Chatbot project, the `deployment.md` file would provide detailed steps and procedures for deploying the chatbot application on a cloud platform like Render or any other platform you choose.
 
 # Deployment Instructions
 
