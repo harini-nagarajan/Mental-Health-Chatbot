@@ -29,7 +29,7 @@ The Mental Health Chatbot is an intelligent conversational agent designed to pro
    pip install -r requirements.txt
    ```
 3. Run the Flask application locally:
-   ``'
+   ```
    python app.py
    ```
 4. Access the chatbot interface in your web browser at `http://localhost:5000`.
