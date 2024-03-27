@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Mental Health Chatbot</h1>
+        <div id="chat-container">
+            <div id="message-history">
+                <!-- Chat messages will be displayed here -->
+            </div>
+            <form id="chat-form">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button type="submit">Send</button>
+            </form>
+            <button id="voice-input-btn">Voice Input</button>
+            <audio id="meditation-audio" loop>
+                <source src="{{ url_for('static', filename='audio/meditation_audio.mp3') }}" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <button id="play-btn">Play</button>
+            <button id="stop-btn">Stop</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

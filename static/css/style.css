@@ -1,0 +1,126 @@
+/* Add styling for the chat input field */
+#user-input {
+    width: calc(100% - 70px); /* Adjust width to fit the container */
+    padding:  10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 80%; /* Adjust width to fit the container */
+    animation: typing 1s infinite alternate;
+}
+@keyframes typing {
+    from {
+        border-right: 2px solid #6495bd;
+    }
+    to {
+        border-right: none;
+    }
+}
+
+/* Style the send button */
+#chat-form button[type="submit"] {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #6495bd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the voice input button */
+#voice-input-btn {
+    padding: 10px 20px;
+    background-color: #6495bd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Style the play and stop buttons */
+#play-btn, #stop-btn {
+    padding: 10px 20px;
+    background-color: #6af16d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#stop-btn {
+    background-color: #ee736b; /* Change color for stop button */
+}
+
+/* Adjust margins and padding for better spacing */
+body {
+    background-color: #f0f0f0; /* Set the background color */
+    font-family: Arial, sans-serif; /* Set the font family */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#d8d8fc; /* Set the background color of the container */
+    border-radius: 10px; /* Add rounded corners to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+}
+
+#chat-container {
+    border: 1px solid #34bb6c;
+    background-color:#f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+#message-history {
+    margin-bottom: 20px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.user-message {
+    text-align: right;
+    background-color: #d8d8fc;
+    color: #000000;
+}
+
+.bot-message {
+    text-align: left;
+    background-color: #f2f2f2;
+    color: #000000;
+}
+.user-image, .bot-image {
+    max-width: 40px; /* Set maximum width for the images */
+    max-height: 40px; /* Set maximum height for the images */
+    width: auto; /* Ensure aspect ratio is maintained */
+    height: auto; /* Ensure aspect ratio is maintained */
+}
+
+.user-message .user-image {
+    margin-right: 10px; /* Adjust margin for user image */
+}
+
+.bot-message .bot-image {
+    margin-left: 10px; /* Adjust margin for bot image */
+}
