@@ -61,7 +61,27 @@
     },
     {"tag": "stressed",
         "patterns": ["I am so stressed out", "I am so stressed", "I feel stuck", "I still feel stressed", "I am so burned out"],
-        "responses": ["What do you think is causing this?", "Take a deep breath and gather your thoughts. Go take a walk if possible. Stay hydrated", "Give yourself a break. Go easy on yourself.", "I am sorry to hear that. What is the reason behind this?"]
+        "responses": ["I am so sorry to hear that. What do you think is causing this?"]
+    },
+    {"tag": "fightfriend",
+        "patterns": ["I have fight between my friend","fight between my friend"],
+        "responses": ["I understand. Friendships can be complicated. It might help to express your feelings and thoughts to your friend in a calm and honest conversation.Have you tried talking to your friend about how you feel?"]
+    },
+    {"tag": "tried",
+        "patterns": ["Yes I tried talking", "yes i tried","yes"],
+        "responses": ["It sounds like you've made an effort to resolve the issue. Sometimes, conflicts take time to work through. So before that dont lose your hope. stay positive"]
+    },
+    {"tag": "but",
+        "patterns": ["but i feel so depressed because of this"],
+        "responses": ["Yes i could understand you. Try some kind of deep breathing exercises"]
+    },
+    {"tag": "temporary",
+        "patterns": ["i feel it is giving only temporary recovery"],
+        "responses": ["I recommend incorporating meditation into your routine. It can significantly reduce stress and anxiety levels."]
+    },
+    {"tag": "suggest",
+        "patterns": ["Can you suggest any specific meditation practices?"],
+        "responses": ["Sure! I am too having meditation audio track that you can listen to daily. It's designed to promote relaxation and calmness."]
     },
     {"tag": "worthless",
         "patterns": ["I feel so worthless.", "No one likes me.", "I can't do anything.", "I am so useless", "Nothing makes sense anymore"],
